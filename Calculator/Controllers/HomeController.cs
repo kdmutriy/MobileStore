@@ -17,7 +17,6 @@ namespace Calculator.Controllers
 
         public IActionResult About(int x, int y, string d)
         {
-            string dk = "";
             //string sX = Request.Form.FirstOrDefault(p => p.Key == "x").Value;
             //int x = Int32.Parse(sX);
 
@@ -25,19 +24,19 @@ namespace Calculator.Controllers
             //int y = Int32.Parse(sY);
 
             //string sD = Request.Form.FirstOrDefault(p => p.Key == "d").Value;
-            
+
             double rez = 0;
-            
+
             switch (d)
             {
-                case "+":rez = x + y; break;
+                case "+": rez = x + y; break;
                 case "-": rez = x - y; break;
                 case "*": rez = x * y; break;
                 case "/": rez = x / y; break;
             }
-            return Content( $"{rez}");
+            return Content($"{rez}");
         }
 
-       
+
     }
 }
