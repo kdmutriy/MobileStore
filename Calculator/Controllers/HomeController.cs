@@ -17,6 +17,7 @@ namespace Calculator.Controllers
 
         public IActionResult About(int x, int y, string d)
         {
+            string dk = "";
             //string sX = Request.Form.FirstOrDefault(p => p.Key == "x").Value;
             //int x = Int32.Parse(sX);
 
