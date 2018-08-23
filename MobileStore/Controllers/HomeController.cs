@@ -1,6 +1,9 @@
-﻿using System.IO;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MobileStore.Models;
 using MobileStore.Util;
@@ -21,6 +24,7 @@ namespace MobileStore.Controllers
             return View(db.Phones.ToList());
         }
 
+
         [HttpGet]
         public IActionResult Buy(int id)
         {
@@ -36,7 +40,7 @@ namespace MobileStore.Controllers
             return "Спасибо, " + order.User + ", за покупку!";
         }
         #region Отправка файлов
-        
+
         public IActionResult GetFile()
         {
             // Путь к файлу
