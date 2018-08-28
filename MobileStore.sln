@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MobileStore", "MobileStore\MobileStore.csproj", "{43F1E40D-98BD-49B2-A6B6-3BB86E871635}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{FFB499A8-23BB-48F0-8B8F-5958B3E4CC91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{FFB499A8-23BB-48F0-8B8F-5958B3E4CC91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View_G8", "View_G8\View_G8.csproj", "{CF8A6CEB-345B-41CD-AD2C-D5BF3F786C5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FFB499A8-23BB-48F0-8B8F-5958B3E4CC91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFB499A8-23BB-48F0-8B8F-5958B3E4CC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFB499A8-23BB-48F0-8B8F-5958B3E4CC91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF8A6CEB-345B-41CD-AD2C-D5BF3F786C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8A6CEB-345B-41CD-AD2C-D5BF3F786C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8A6CEB-345B-41CD-AD2C-D5BF3F786C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8A6CEB-345B-41CD-AD2C-D5BF3F786C5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
